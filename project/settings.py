@@ -158,3 +158,4 @@ EMAIL_USE_TLS=True
 EMAIL_HOST_USER="krishnavs749@gmail.com"
 EMAIL_HOST_PASSWORD="@singh12."
 ##################################################
+ALLOWED_HOSTS = ['laptop-cfv8qa9n', 'localhost', '127.0.0.1']
