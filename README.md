@@ -1,4 +1,4 @@
-# user login and register system implementation in django 
+# India National Safety Management Web implementation in django 
 ![](https://img.shields.io/github/repo-size/itsvinayak/user_login_and_register.svg?label=Repo%20size&style=flat-square)&nbsp;![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)&nbsp;
 
 
@@ -10,7 +10,6 @@ django based login,logout and register system [django docs on auth system](https
 
 ---
 
-learn how to make on geeksforgeeks : https://www.geeksforgeeks.org/django-sign-up-and-login-with-confirmation-email-python/
 
 
 ![beginner-friendly](https://img.shields.io/badge/beginner%20friendly-django%20project%20-green)
