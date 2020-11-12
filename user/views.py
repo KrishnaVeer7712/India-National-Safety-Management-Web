@@ -19,8 +19,8 @@ def index(request):
 def read_file(request):
     f = open('D:/Sem Projects/Sem 7 projects/Capstone/India National Safety Management\India National Safety Management/text.txt', 'r')
     file_content = f.read()
+    return render(request, 'user/read_file.html', {'file_content': file_content})
     f.close()
-    return HttpResponse(file_content, content_type="text/plain")
 
 ########################################################################
 ########### register here #####################################

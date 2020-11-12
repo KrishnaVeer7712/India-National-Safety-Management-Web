@@ -1,8 +1,39 @@
-{% extends "user/text.html" %}
-{% load crispy_forms_tags %}
-{% block start %}
+
+<center><h1>India National Safety Management</h1></center>
+<p>file_content: {{file_content |linebreaks}}</p>
+<p>.....</p>
 
 <style>
     body { background-color: YellowGreen; }
     p { color: #fff; }
+
+    body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 </style>
